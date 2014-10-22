@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="Style.css" rel="stylesheet" />
+<link href="Event_style.css" rel="stylesheet" />
+<title>Untitled Document</title>
+</head>
+<body>
+
+<div class="container event-list">
+    <div class="col-lg-3 col-md-3 time-wrap">
+        <h4>MONTH</h4>
+        <h4>DAY</h4>
+        <h4>2014</h4>
+        <h5><a href="FACEBOOKURL" title="Add to Calendar" 
+            class="addthisevent">
+                Add to Calendar
+                <span class="arrow">&nbsp;</span>
+                <span class="_start">MM/DD/YYYY HH:MM</span>
+                <span class="_end">MM/DD/YYYY HH:MM</span>
+                <span class="_zonecode">15</span>
+                <span class="_summary">EVENT NAME</span>
+                <span class="_description">EVENT DESCRIPTION</span>
+                <span class="_location">EVENT LOCATION</span>
+                <span class="_organizer">NCSU Ektaa</span>
+                <span class="_organizer_email">ektaaexec@ektaa.org</span>
+                <span class="_facebook_event">FACEBOOKURL</span>
+                <span class="_all_day_event">false</span>
+                <span class="_alarm_reminder">MINUTES</span>
+                <span class="_date_format">MM/DD/YYYY</span>
+            </a>
+        </h5>
+    </div>
+    <div class="col-lg-3 col-md-3 picture-wrap"><a href="EVENT IMAGE" target="_blank">
+        <img src="EVENT IMAGE" /></a>
+    </div>
+    <div class="col-lg-4 col-md-4 detail-wrap">
+        <div class="text-center text-uppercase event-name">EVENT NAME</div>
+        <div class="text-center text-uppercase event-location">EVENT LOCATION</div>
+        <button class="text-center col-lg-6 btn btn-sm link">
+            <span class="fa fa-money"> COST</span></button>
+        <button class="text-center col-lg-6 btn btn-sm link">ETC.</button>
+    </div>
+    <div class="col-lg-2 col-md-2 social-wrap">    
+        <a href="FACEBOOKURL" class="social-event">
+            <i class="fa fa-facebook-square fa-3x social social-fb"></i></a>
+        <div class="row"></div>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=HASHTAH&text=I'm%20going%20to" 
+            class="social-event" data-related="NCSU_EKTAA">
+            <i class="fa fa-twitter-square fa-3x social social-tw"></i>
+        </a>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://addthisevent.com/libs/1.5.8/ate.min.js"></script>
+<script type="text/javascript">
+addthisevent.settings({
+	mouse		: true,
+	css			: false,
+	outlook		: {show:false, text:"Outlook Calendar"},
+	google		: {show:true, text:"Google Calendar"},
+	yahoo		: {show:false, text:"Yahoo Calendar"},
+	ical		: {show:true, text:"iCal Calendar"},
+	hotmail		: {show:false, text:"Hotmail Calendar"},
+	facebook	: {show:true, text:"Facebook Calendar"}
+});
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</body>
+</html>
